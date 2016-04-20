@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDEC54151CC727F600498005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC54141CC727F600498005 /* AppDelegate.swift */; };
+		DDEC54171CC727F600498005 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC54161CC727F600498005 /* ViewController.swift */; };
+		DDEC541A1CC727F600498005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEC54181CC727F600498005 /* Main.storyboard */; };
+		DDEC541C1CC727F600498005 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEC541B1CC727F600498005 /* Images.xcassets */; };
+		DDEC541F1CC727F600498005 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDEC541D1CC727F600498005 /* LaunchScreen.xib */; };
+		DDEC542B1CC727F600498005 /* biblitecaOnlineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC542A1CC727F600498005 /* biblitecaOnlineTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDEC54251CC727F600498005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDEC54071CC727F600498005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDEC540E1CC727F600498005;
+			remoteInfo = biblitecaOnline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDEC540F1CC727F600498005 /* biblitecaOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = biblitecaOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEC54131CC727F600498005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEC54141CC727F600498005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDEC54161CC727F600498005 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDEC54191CC727F600498005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDEC541B1CC727F600498005 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDEC541E1CC727F600498005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DDEC54241CC727F600498005 /* biblitecaOnlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = biblitecaOnlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEC54291CC727F600498005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEC542A1CC727F600498005 /* biblitecaOnlineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biblitecaOnlineTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDEC540C1CC727F600498005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEC54211CC727F600498005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDEC54061CC727F600498005 = {
+			isa = PBXGroup;
+			children = (
+				DDEC54111CC727F600498005 /* biblitecaOnline */,
+				DDEC54271CC727F600498005 /* biblitecaOnlineTests */,
+				DDEC54101CC727F600498005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDEC54101CC727F600498005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDEC540F1CC727F600498005 /* biblitecaOnline.app */,
+				DDEC54241CC727F600498005 /* biblitecaOnlineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDEC54111CC727F600498005 /* biblitecaOnline */ = {
+			isa = PBXGroup;
+			children = (
+				DDEC54141CC727F600498005 /* AppDelegate.swift */,
+				DDEC54161CC727F600498005 /* ViewController.swift */,
+				DDEC54181CC727F600498005 /* Main.storyboard */,
+				DDEC541B1CC727F600498005 /* Images.xcassets */,
+				DDEC541D1CC727F600498005 /* LaunchScreen.xib */,
+				DDEC54121CC727F600498005 /* Supporting Files */,
+			);
+			path = biblitecaOnline;
+			sourceTree = "<group>";
+		};
+		DDEC54121CC727F600498005 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDEC54131CC727F600498005 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDEC54271CC727F600498005 /* biblitecaOnlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDEC542A1CC727F600498005 /* biblitecaOnlineTests.swift */,
+				DDEC54281CC727F600498005 /* Supporting Files */,
+			);
+			path = biblitecaOnlineTests;
+			sourceTree = "<group>";
+		};
+		DDEC54281CC727F600498005 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDEC54291CC727F600498005 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDEC540E1CC727F600498005 /* biblitecaOnline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEC542E1CC727F600498005 /* Build configuration list for PBXNativeTarget "biblitecaOnline" */;
+			buildPhases = (
+				DDEC540B1CC727F600498005 /* Sources */,
+				DDEC540C1CC727F600498005 /* Frameworks */,
+				DDEC540D1CC727F600498005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = biblitecaOnline;
+			productName = biblitecaOnline;
+			productReference = DDEC540F1CC727F600498005 /* biblitecaOnline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDEC54231CC727F600498005 /* biblitecaOnlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEC54311CC727F600498005 /* Build configuration list for PBXNativeTarget "biblitecaOnlineTests" */;
+			buildPhases = (
+				DDEC54201CC727F600498005 /* Sources */,
+				DDEC54211CC727F600498005 /* Frameworks */,
+				DDEC54221CC727F600498005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDEC54261CC727F600498005 /* PBXTargetDependency */,
+			);
+			name = biblitecaOnlineTests;
+			productName = biblitecaOnlineTests;
+			productReference = DDEC54241CC727F600498005 /* biblitecaOnlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDEC54071CC727F600498005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Katherine Gonzalez";
+				TargetAttributes = {
+					DDEC540E1CC727F600498005 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DDEC54231CC727F600498005 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DDEC540E1CC727F600498005;
+					};
+				};
+			};
+			buildConfigurationList = DDEC540A1CC727F600498005 /* Build configuration list for PBXProject "biblitecaOnline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDEC54061CC727F600498005;
+			productRefGroup = DDEC54101CC727F600498005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDEC540E1CC727F600498005 /* biblitecaOnline */,
+				DDEC54231CC727F600498005 /* biblitecaOnlineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDEC540D1CC727F600498005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEC541A1CC727F600498005 /* Main.storyboard in Resources */,
+				DDEC541F1CC727F600498005 /* LaunchScreen.xib in Resources */,
+				DDEC541C1CC727F600498005 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEC54221CC727F600498005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDEC540B1CC727F600498005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEC54171CC727F600498005 /* ViewController.swift in Sources */,
+				DDEC54151CC727F600498005 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEC54201CC727F600498005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEC542B1CC727F600498005 /* biblitecaOnlineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDEC54261CC727F600498005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDEC540E1CC727F600498005 /* biblitecaOnline */;
+			targetProxy = DDEC54251CC727F600498005 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDEC54181CC727F600498005 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDEC54191CC727F600498005 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDEC541D1CC727F600498005 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDEC541E1CC727F600498005 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDEC542C1CC727F600498005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDEC542D1CC727F600498005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDEC542F1CC727F600498005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = biblitecaOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDEC54301CC727F600498005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = biblitecaOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDEC54321CC727F600498005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = biblitecaOnlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/biblitecaOnline.app/biblitecaOnline";
+			};
+			name = Debug;
+		};
+		DDEC54331CC727F600498005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = biblitecaOnlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/biblitecaOnline.app/biblitecaOnline";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDEC540A1CC727F600498005 /* Build configuration list for PBXProject "biblitecaOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEC542C1CC727F600498005 /* Debug */,
+				DDEC542D1CC727F600498005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDEC542E1CC727F600498005 /* Build configuration list for PBXNativeTarget "biblitecaOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEC542F1CC727F600498005 /* Debug */,
+				DDEC54301CC727F600498005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDEC54311CC727F600498005 /* Build configuration list for PBXNativeTarget "biblitecaOnlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEC54321CC727F600498005 /* Debug */,
+				DDEC54331CC727F600498005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDEC54071CC727F600498005 /* Project object */;
+}
